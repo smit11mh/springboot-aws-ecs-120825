@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_DEFAULT_REGION: us-east-1       # <- replace with your actual region
-    IMAGE_REPO_NAME: springboot-app    # <- replace with your ECR repo name
+    IMAGE_REPO_NAME: springboot-aws-demo    # <- replace with your ECR repo name
 
 phases:
   install:
