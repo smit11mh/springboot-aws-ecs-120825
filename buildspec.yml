@@ -6,6 +6,9 @@ env:
     IMAGE_REPO_NAME: springboot-app    # <- replace with your ECR repo name
 
 phases:
+  install:
+    commands:
+      - chmod +x ./mvnw
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
